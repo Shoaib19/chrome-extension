@@ -1,2 +1,2 @@
 heading = document.getElementsByClassName('dz')
-heading.style.color = 'red'
+heading[0].style.color = 'red'
