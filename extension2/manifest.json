@@ -4,17 +4,8 @@
   "version" : "1",
   "content_scripts":[
     {
-      "matches":["https://*.google.com/*"],
-      "css": ["styles/change_background.css"],
-      "js": ["scripts/for_google.js"]
-    },
-    {
       "matches":["https://*.facebook.com/*"],
-      "js": ["scripts/redirect_to.js"]
-    },
-    {
-      "matches":["https://*.medium.com//*"],
-      "js": ["scripts/change_text_color.js"]
+      "js": ["scripts/for_facebook.js"]
     }
   ]
 }
